@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Jumblee Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -11,8 +11,8 @@
     "light": "#0B478E",
     "dark": "#0B478E",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#0B478E",
+      "to": "#0B478E"
     }
   },
   "topbarLinks": [
@@ -25,12 +25,6 @@
     "name": "Dashboard",
     "url": "https://dashboard.jumblee.io"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
       "name": "Community",
@@ -61,20 +55,6 @@
         "essentials/settings",
         "essentials/navigation",
         "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
       ]
     }
   ],
